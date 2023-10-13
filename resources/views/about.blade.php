@@ -7,7 +7,7 @@
 
             <article class="flex flex-col shadow my-4">
                 @if($widget && $widget->image)
-                    <img src="/storage/{{ $widget->image }}">
+                    <img src="/storage/{{ $widget->image }}" alt="">
                 @endif
 
                 <div class="bg-white flex flex-col justify-start p-6">
